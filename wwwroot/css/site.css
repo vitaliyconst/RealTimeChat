@@ -1,0 +1,79 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.message {
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+
+.positive {
+    background-color: #d4edda;
+    border-left: 4px solid #28a745;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.negative {
+    background-color: #f8d7da;
+    border-left: 4px solid #dc3545;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.neutral {
+    background-color: #e2e3e5;
+    border-left: 4px solid #6c757d;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+body.light {
+    background-color: #f5f5f5;
+    color: #222;
+}
+
+body.dark {
+    background-color: #1e1e1e;
+    color: #f5f5f5;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 6px;
+    border: none;
+    padding: 8px 16px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease, opacity 0.3s ease;
+}
+
+    button:hover {
+        opacity: 0.55;
+    }
+
+/* === Input group (Bootstrap styling fix) === */
+.input-group {
+    margin-top: 10px;
+}
+
+    .input-group .form-control {
+        border-radius: 6px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        padding: 8px 12px;
+        transition: border-color 0.3s ease;
+    }
+
+        .input-group .form-control:focus {
+            border-color: #007bff;
+            box-shadow: none;
+        }
+
+    .input-group .btn {
+        border-radius: 6px;
+        font-weight: 600;
+        padding: 8px 16px;
+        transition: background-color 0.3s ease;
+    }
+
+        .input-group .btn:hover {
+            background-color: #0056b3;
+        }
